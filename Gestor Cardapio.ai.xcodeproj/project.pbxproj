@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C81447704ECE4060762D7E /* Pods_Gestor_Cardapio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9980627913614785F7C1959C /* Pods_Gestor_Cardapio.framework */; };
+		A02C6C08282C5A44005C25DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C6C07282C5A44005C25DA /* AppDelegate.swift */; };
+		A02C6C0A282C5A44005C25DA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C6C09282C5A44005C25DA /* SceneDelegate.swift */; };
+		A02C6C0C282C5A44005C25DA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02C6C0B282C5A44005C25DA /* StartViewController.swift */; };
+		A02C6C11282C5A47005C25DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02C6C10282C5A47005C25DA /* Assets.xcassets */; };
+		A02C6C14282C5A47005C25DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02C6C12282C5A47005C25DA /* LaunchScreen.storyboard */; };
+		A03E595C282C630C00ACC595 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E595B282C630C00ACC595 /* String+Extensions.swift */; };
+		A03E595F282C636D00ACC595 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E595E282C636D00ACC595 /* BaseViewController.swift */; };
+		A03E5963282C645B00ACC595 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5962282C645B00ACC595 /* StartView.swift */; };
+		A03E5965282C664E00ACC595 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5964282C664E00ACC595 /* UIView+Extension.swift */; };
+		A03E596E282C770E00ACC595 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E596D282C770D00ACC595 /* Coordinator.swift */; };
+		A03E5970282C77BD00ACC595 /* NavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E596F282C77BC00ACC595 /* NavigationController+Extension.swift */; };
+		A03E5973282C784800ACC595 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5972282C784800ACC595 /* MainCoordinator.swift */; };
+		A03E5979282C7AC600ACC595 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5978282C7AC600ACC595 /* AboutViewController.swift */; };
+		A03E597B282C7ACC00ACC595 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E597A282C7ACC00ACC595 /* SupportViewController.swift */; };
+		A03E597D282C7AD300ACC595 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E597C282C7AD200ACC595 /* SettingsViewController.swift */; };
+		A03E5982282C7AE000ACC595 /* SideMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E597E282C7AE000ACC595 /* SideMenuItem.swift */; };
+		A03E5983282C7AE000ACC595 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E597F282C7AE000ACC595 /* SideMenuViewController.swift */; };
+		A03E5984282C7AE000ACC595 /* SideMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5980282C7AE000ACC595 /* SideMenuDelegate.swift */; };
+		A03E5985282C7AE000ACC595 /* SideMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5981282C7AE000ACC595 /* SideMenuItemCell.swift */; };
+		A03E5989282C7AF500ACC595 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5986282C7AF500ACC595 /* ContainerViewController.swift */; };
+		A03E598A282C7AF500ACC595 /* ContentViewControllerPresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5987282C7AF500ACC595 /* ContentViewControllerPresentation.swift */; };
+		A03E598B282C7AF500ACC595 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03E5988282C7AF500ACC595 /* ContentViewController.swift */; };
+		A08538CF287C7D30009D3EE7 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08538CE287C7D30009D3EE7 /* SupportView.swift */; };
+		A08538D1287C8600009D3EE7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08538D0287C8600009D3EE7 /* SettingsView.swift */; };
+		A08538D3287C8613009D3EE7 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08538D2287C8613009D3EE7 /* AboutView.swift */; };
+		A08538D7287CEFFD009D3EE7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A08538D6287CEFFD009D3EE7 /* GoogleService-Info.plist */; };
+		A0CFF82A282D80FA00AC3C45 /* WKWebView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CFF829282D80FA00AC3C45 /* WKWebView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24DD51AD2DAA2241C06C7CBE /* Pods-Gestor Cardapio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gestor Cardapio.release.xcconfig"; path = "Target Support Files/Pods-Gestor Cardapio/Pods-Gestor Cardapio.release.xcconfig"; sourceTree = "<group>"; };
+		2D3B603D896C1B051C75CD04 /* Pods-Cardapio.Ai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardapio.Ai.debug.xcconfig"; path = "Target Support Files/Pods-Cardapio.Ai/Pods-Cardapio.Ai.debug.xcconfig"; sourceTree = "<group>"; };
+		38F8ED08F201C7E9C51F116E /* Pods-Gestor Cardapio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gestor Cardapio.debug.xcconfig"; path = "Target Support Files/Pods-Gestor Cardapio/Pods-Gestor Cardapio.debug.xcconfig"; sourceTree = "<group>"; };
+		5B9F58B1EFCA3EF459BD3522 /* Pods-Cardapio.Ai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cardapio.Ai.release.xcconfig"; path = "Target Support Files/Pods-Cardapio.Ai/Pods-Cardapio.Ai.release.xcconfig"; sourceTree = "<group>"; };
+		9980627913614785F7C1959C /* Pods_Gestor_Cardapio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gestor_Cardapio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02C6C04282C5A44005C25DA /* Gestor Cardapio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gestor Cardapio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02C6C07282C5A44005C25DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A02C6C09282C5A44005C25DA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A02C6C0B282C5A44005C25DA /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A02C6C10282C5A47005C25DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A02C6C13282C5A47005C25DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A02C6C15282C5A47005C25DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A03E595B282C630C00ACC595 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		A03E595E282C636D00ACC595 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		A03E5962282C645B00ACC595 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		A03E5964282C664E00ACC595 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		A03E596D282C770D00ACC595 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		A03E596F282C77BC00ACC595 /* NavigationController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NavigationController+Extension.swift"; sourceTree = "<group>"; };
+		A03E5972282C784800ACC595 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		A03E5978282C7AC600ACC595 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A03E597A282C7ACC00ACC595 /* SupportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		A03E597C282C7AD200ACC595 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		A03E597E282C7AE000ACC595 /* SideMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItem.swift; sourceTree = "<group>"; };
+		A03E597F282C7AE000ACC595 /* SideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		A03E5980282C7AE000ACC595 /* SideMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuDelegate.swift; sourceTree = "<group>"; };
+		A03E5981282C7AE000ACC595 /* SideMenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuItemCell.swift; sourceTree = "<group>"; };
+		A03E5986282C7AF500ACC595 /* ContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		A03E5987282C7AF500ACC595 /* ContentViewControllerPresentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewControllerPresentation.swift; sourceTree = "<group>"; };
+		A03E5988282C7AF500ACC595 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		A08538CE287C7D30009D3EE7 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		A08538D0287C8600009D3EE7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A08538D2287C8613009D3EE7 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		A08538D5287CEC2C009D3EE7 /* Cardapio.Ai.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cardapio.Ai.entitlements; sourceTree = "<group>"; };
+		A08538D6287CEFFD009D3EE7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A0CFF829282D80FA00AC3C45 /* WKWebView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WKWebView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A02C6C01282C5A44005C25DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C81447704ECE4060762D7E /* Pods_Gestor_Cardapio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A02C6BFB282C5A44005C25DA = {
+			isa = PBXGroup;
+			children = (
+				A02C6C06282C5A44005C25DA /* Gestor Cardapio */,
+				A02C6C05282C5A44005C25DA /* Products */,
+				CA01F9515F76D3139E40B4B2 /* Pods */,
+				A06726747171E9E719DBE195 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A02C6C05282C5A44005C25DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A02C6C04282C5A44005C25DA /* Gestor Cardapio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A02C6C06282C5A44005C25DA /* Gestor Cardapio */ = {
+			isa = PBXGroup;
+			children = (
+				A08538D6287CEFFD009D3EE7 /* GoogleService-Info.plist */,
+				A08538D5287CEC2C009D3EE7 /* Cardapio.Ai.entitlements */,
+				A03E5960282C643700ACC595 /* Main */,
+				A03E5959282C624000ACC595 /* Core */,
+				A03E5958282C622A00ACC595 /* Network */,
+				A03E5957282C622000ACC595 /* Model */,
+				A02C6C07282C5A44005C25DA /* AppDelegate.swift */,
+				A02C6C09282C5A44005C25DA /* SceneDelegate.swift */,
+				A02C6C10282C5A47005C25DA /* Assets.xcassets */,
+				A02C6C12282C5A47005C25DA /* LaunchScreen.storyboard */,
+				A02C6C15282C5A47005C25DA /* Info.plist */,
+			);
+			path = "Gestor Cardapio";
+			sourceTree = "<group>";
+		};
+		A03E5957282C622000ACC595 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A03E5958282C622A00ACC595 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A03E5959282C624000ACC595 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A03E5971282C783B00ACC595 /* Coordinator */,
+				A03E595D282C636100ACC595 /* ViewController */,
+				A03E595A282C62FE00ACC595 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A03E595A282C62FE00ACC595 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A03E595B282C630C00ACC595 /* String+Extensions.swift */,
+				A03E5964282C664E00ACC595 /* UIView+Extension.swift */,
+				A03E596F282C77BC00ACC595 /* NavigationController+Extension.swift */,
+				A0CFF829282D80FA00AC3C45 /* WKWebView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A03E595D282C636100ACC595 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A03E595E282C636D00ACC595 /* BaseViewController.swift */,
+				A03E5986282C7AF500ACC595 /* ContainerViewController.swift */,
+				A03E5988282C7AF500ACC595 /* ContentViewController.swift */,
+				A03E5987282C7AF500ACC595 /* ContentViewControllerPresentation.swift */,
+				A03E5974282C7A3400ACC595 /* SideMenuViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A03E5960282C643700ACC595 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A03E5977282C7A7C00ACC595 /* Settings */,
+				A03E5976282C7A7600ACC595 /* MyAccount */,
+				A03E5975282C7A6F00ACC595 /* About */,
+				A03E5961282C644900ACC595 /* Start */,
+				A08538D4287C861C009D3EE7 /* SellWithUs */,
+				A03E5972282C784800ACC595 /* MainCoordinator.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A03E5961282C644900ACC595 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				A02C6C0B282C5A44005C25DA /* StartViewController.swift */,
+				A03E5962282C645B00ACC595 /* StartView.swift */,
+			);
+			path = Start;
+			sourceTree = "<group>";
+		};
+		A03E5971282C783B00ACC595 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				A03E596D282C770D00ACC595 /* Coordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		A03E5974282C7A3400ACC595 /* SideMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A03E5980282C7AE000ACC595 /* SideMenuDelegate.swift */,
+				A03E597E282C7AE000ACC595 /* SideMenuItem.swift */,
+				A03E5981282C7AE000ACC595 /* SideMenuItemCell.swift */,
+				A03E597F282C7AE000ACC595 /* SideMenuViewController.swift */,
+			);
+			path = SideMenuViewController;
+			sourceTree = "<group>";
+		};
+		A03E5975282C7A6F00ACC595 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				A03E5978282C7AC600ACC595 /* AboutViewController.swift */,
+				A08538D2287C8613009D3EE7 /* AboutView.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		A03E5976282C7A7600ACC595 /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				A03E597A282C7ACC00ACC595 /* SupportViewController.swift */,
+				A08538CE287C7D30009D3EE7 /* SupportView.swift */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		A03E5977282C7A7C00ACC595 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A03E597C282C7AD200ACC595 /* SettingsViewController.swift */,
+				A08538D0287C8600009D3EE7 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A06726747171E9E719DBE195 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9980627913614785F7C1959C /* Pods_Gestor_Cardapio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A08538D4287C861C009D3EE7 /* SellWithUs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SellWithUs;
+			sourceTree = "<group>";
+		};
+		CA01F9515F76D3139E40B4B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D3B603D896C1B051C75CD04 /* Pods-Cardapio.Ai.debug.xcconfig */,
+				5B9F58B1EFCA3EF459BD3522 /* Pods-Cardapio.Ai.release.xcconfig */,
+				38F8ED08F201C7E9C51F116E /* Pods-Gestor Cardapio.debug.xcconfig */,
+				24DD51AD2DAA2241C06C7CBE /* Pods-Gestor Cardapio.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A02C6C03282C5A44005C25DA /* Gestor Cardapio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A02C6C18282C5A47005C25DA /* Build configuration list for PBXNativeTarget "Gestor Cardapio" */;
+			buildPhases = (
+				F79DEE27D17F72A92647F5F2 /* [CP] Check Pods Manifest.lock */,
+				A02C6C00282C5A44005C25DA /* Sources */,
+				A02C6C01282C5A44005C25DA /* Frameworks */,
+				A02C6C02282C5A44005C25DA /* Resources */,
+				DACD710E26F1777D27A9A73B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gestor Cardapio";
+			productName = Cardapio.Ai;
+			productReference = A02C6C04282C5A44005C25DA /* Gestor Cardapio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A02C6BFC282C5A44005C25DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					A02C6C03282C5A44005C25DA = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = A02C6BFF282C5A44005C25DA /* Build configuration list for PBXProject "Gestor Cardapio.ai" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A02C6BFB282C5A44005C25DA;
+			productRefGroup = A02C6C05282C5A44005C25DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A02C6C03282C5A44005C25DA /* Gestor Cardapio */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A02C6C02282C5A44005C25DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02C6C14282C5A47005C25DA /* LaunchScreen.storyboard in Resources */,
+				A02C6C11282C5A47005C25DA /* Assets.xcassets in Resources */,
+				A08538D7287CEFFD009D3EE7 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DACD710E26F1777D27A9A73B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gestor Cardapio/Pods-Gestor Cardapio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gestor Cardapio/Pods-Gestor Cardapio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gestor Cardapio/Pods-Gestor Cardapio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F79DEE27D17F72A92647F5F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gestor Cardapio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A02C6C00282C5A44005C25DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03E598A282C7AF500ACC595 /* ContentViewControllerPresentation.swift in Sources */,
+				A08538D1287C8600009D3EE7 /* SettingsView.swift in Sources */,
+				A03E595F282C636D00ACC595 /* BaseViewController.swift in Sources */,
+				A03E598B282C7AF500ACC595 /* ContentViewController.swift in Sources */,
+				A03E5965282C664E00ACC595 /* UIView+Extension.swift in Sources */,
+				A03E597B282C7ACC00ACC595 /* SupportViewController.swift in Sources */,
+				A03E595C282C630C00ACC595 /* String+Extensions.swift in Sources */,
+				A02C6C0C282C5A44005C25DA /* StartViewController.swift in Sources */,
+				A03E5963282C645B00ACC595 /* StartView.swift in Sources */,
+				A03E597D282C7AD300ACC595 /* SettingsViewController.swift in Sources */,
+				A03E596E282C770E00ACC595 /* Coordinator.swift in Sources */,
+				A03E5970282C77BD00ACC595 /* NavigationController+Extension.swift in Sources */,
+				A02C6C08282C5A44005C25DA /* AppDelegate.swift in Sources */,
+				A03E5982282C7AE000ACC595 /* SideMenuItem.swift in Sources */,
+				A03E5979282C7AC600ACC595 /* AboutViewController.swift in Sources */,
+				A03E5984282C7AE000ACC595 /* SideMenuDelegate.swift in Sources */,
+				A08538D3287C8613009D3EE7 /* AboutView.swift in Sources */,
+				A03E5973282C784800ACC595 /* MainCoordinator.swift in Sources */,
+				A03E5989282C7AF500ACC595 /* ContainerViewController.swift in Sources */,
+				A02C6C0A282C5A44005C25DA /* SceneDelegate.swift in Sources */,
+				A0CFF82A282D80FA00AC3C45 /* WKWebView+Extension.swift in Sources */,
+				A03E5983282C7AE000ACC595 /* SideMenuViewController.swift in Sources */,
+				A03E5985282C7AE000ACC595 /* SideMenuItemCell.swift in Sources */,
+				A08538CF287C7D30009D3EE7 /* SupportView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A02C6C12282C5A47005C25DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A02C6C13282C5A47005C25DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A02C6C16282C5A47005C25DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A02C6C17282C5A47005C25DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A02C6C19282C5A47005C25DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F8ED08F201C7E9C51F116E /* Pods-Gestor Cardapio.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Gestor Cardapio/Cardapio.Ai.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 6BNM7632BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gestor Cardapio/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Gestor Cardapio.ai";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Nós precisamos ter permissão ao seu GPS, para listarmos as lojas mais próximas de você!";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Nós precisamos ter permissão ao seu GPS, para listarmos as lojas mais próximas de você!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nomercado.gestor.cardapio.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A02C6C1A282C5A47005C25DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD51AD2DAA2241C06C7CBE /* Pods-Gestor Cardapio.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Gestor Cardapio/Cardapio.Ai.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 6BNM7632BM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gestor Cardapio/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Gestor Cardapio.ai";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Nós precisamos ter permissão ao seu GPS, para listarmos as lojas mais próximas de você!";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Nós precisamos ter permissão ao seu GPS, para listarmos as lojas mais próximas de você!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nomercado.gestor.cardapio.ai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A02C6BFF282C5A44005C25DA /* Build configuration list for PBXProject "Gestor Cardapio.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02C6C16282C5A47005C25DA /* Debug */,
+				A02C6C17282C5A47005C25DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A02C6C18282C5A47005C25DA /* Build configuration list for PBXNativeTarget "Gestor Cardapio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A02C6C19282C5A47005C25DA /* Debug */,
+				A02C6C1A282C5A47005C25DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A02C6BFC282C5A44005C25DA /* Project object */;
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>851329294990-5l7br6n0tdlu6csesfceu3gabqdf03ck.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.851329294990-5l7br6n0tdlu6csesfceu3gabqdf03ck</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>851329294990-h78ga5g04iubcvcpoj022o4jh02o1pri.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyChpkCjmfPDZaIRdfA4Zj6SguxVIAvyKTI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>851329294990</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>nomercado.gestor.cardapio.ai</string>
+	<key>PROJECT_ID</key>
+	<string>rainha-hamburgueria</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rainha-hamburgueria.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:851329294990:ios:39af5df0bb7a990e139fdf</string>
+	<key>DATABASE_URL</key>
+	<string>https://rainha-hamburgueria-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
